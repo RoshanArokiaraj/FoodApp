@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">sprint1</string>
+    <string name="title_home">Home</string>
+    <string name="title_ingredient">Ingredient</string>
+    <string name="title_list">Shopping List</string>
+    <string name="title_shortlist">List</string>
+    <string name="title_recipe">Recipe</string>
+    <string name="title_input">Input Meal</string>
+    <string name="title_personal_information">Input Meal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sarvesh">sarvesh</string>
+</resources>

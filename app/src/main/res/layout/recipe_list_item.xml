@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/recipeNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Recipe Name"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/recipeDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text=""
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/additionalInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/missingItemsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="demo"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        android:paddingBottom="4dp"/>
+
+    <Button
+        android:id="@+id/makeRecipeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:text="Cook"/>
+
+    <TextView
+        android:id="@+id/missingIngredientsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/red"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/submitToShoppingList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:visibility="gone"
+        android:text="Submit Missing to Shopping List"/>
+    <Button
+        android:id="@+id/missingIngrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:visibility="gone"
+        android:text="View Missing"/>
+
+</LinearLayout>

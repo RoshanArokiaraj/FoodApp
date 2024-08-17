@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/filterByNameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter by Name"/>
+
+    <Button
+        android:id="@+id/sortAlphabeticallyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sort Alphabetically"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/filterByItemCountButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Filter by Item Count"/>-->
+
+    <EditText
+        android:id="@+id/editRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name of recipe" />
+
+    <EditText
+        android:id="@+id/editTextIngredientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter list of ingredients" />
+
+    <EditText
+        android:id="@+id/editTextIngredientQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter quantity for one serving"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/buttonAddIngredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Ingredient" />
+
+    <!-- ScrollView for recipes list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recipesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:listitem="@layout/recipe_list_item"
+        android:text="Scrollable"
+        android:paddingBottom="16dp"/>
+
+</LinearLayout>

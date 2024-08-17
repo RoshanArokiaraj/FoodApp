@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_home"-->
+<!--        android:icon="@drawable/ic_home_black_24dp"-->
+<!--        android:title="@string/title_home" />-->
+
+    <item
+        android:id="@+id/navigation_recipe"
+        android:icon="@drawable/ic_saved"
+        android:title="@string/title_recipe" />
+
+    <item
+        android:id="@+id/navigation_ingredient"
+        android:icon="@android:drawable/btn_plus"
+        android:title="@string/title_ingredient" />
+
+    <item
+        android:id="@+id/navigation_personalInformation"
+        android:icon="@android:drawable/btn_star"
+        android:title="Personal Info" />
+
+
+    <item
+        android:id="@+id/navigation_input"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/title_input" />
+
+
+        <item
+            android:id="@+id/navigation_list"
+            android:icon="@drawable/ic_cart"
+            android:title="@string/title_shortlist" />
+
+</menu>

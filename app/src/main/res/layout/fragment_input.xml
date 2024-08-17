@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--// change the layout to scroll view-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.inputmeal.InputMealFragment"
+    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.inputmeal.InputMealFragment"
+    android:orientation="vertical">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewGender"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Gender will show here" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewHeight"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Height will show here" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewWeight"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Weight will show here" />-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="392dp"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:layout_editor_absoluteX="1dp"-->
+<!--        tools:layout_editor_absoluteY="354dp">-->
+
+        <TextView
+            android:id="@+id/text_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Height: Unset (meters)"
+            tools:layout_marginEnd="125dp"
+            tools:layout_marginStart="146dp" />
+
+        <TextView
+            android:id="@+id/text_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Weight: Unset (kg)" />
+
+        <TextView
+            android:id="@+id/text_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Gender: Unset" />
+
+        <TextView
+            android:id="@+id/text_goal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goal: Unset (Cal)" />
+
+        <TextView
+            android:id="@+id/text_intake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consumed: Unset (Cal)" />
+
+        <EditText
+            android:id="@+id/editText_meal_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Meal Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText_calorie_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Calorie Count"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button_submit_meal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+
+    <Button
+        android:id="@+id/btnFetchMealData"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Meal Calorie PieChart"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <Button
+        android:id="@+id/btnFetchMealData2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Calories over Time"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btnFetchMealData2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Calories over Time"/>-->
+
+    <Button
+        android:id="@+id/blankButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="     "/>
+
+    <Button
+        android:id="@+id/blankButton2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="     "/>
+
+</LinearLayout>
+</ScrollView>
